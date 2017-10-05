@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE6AF9A1F86865600DA0D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AF991F86865600DA0D70 /* AppDelegate.swift */; };
+		1EE6AF9C1F86865600DA0D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AF9B1F86865600DA0D70 /* ViewController.swift */; };
+		1EE6AF9F1F86865600DA0D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6AF9D1F86865600DA0D70 /* Main.storyboard */; };
+		1EE6AFA11F86865600DA0D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6AFA01F86865600DA0D70 /* Assets.xcassets */; };
+		1EE6AFA41F86865600DA0D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6AFA21F86865600DA0D70 /* LaunchScreen.storyboard */; };
+		1EE6AFAF1F86865600DA0D70 /* SpeechBubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AFAE1F86865600DA0D70 /* SpeechBubbleTests.swift */; };
+		1EE6AFBA1F86865700DA0D70 /* SpeechBubbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AFB91F86865700DA0D70 /* SpeechBubbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE6AFAB1F86865600DA0D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE6AF8E1F86865600DA0D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE6AF951F86865600DA0D70;
+			remoteInfo = SpeechBubble;
+		};
+		1EE6AFB61F86865700DA0D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE6AF8E1F86865600DA0D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE6AF951F86865600DA0D70;
+			remoteInfo = SpeechBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EE6AF961F86865600DA0D70 /* SpeechBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE6AF991F86865600DA0D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EE6AF9B1F86865600DA0D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EE6AF9E1F86865600DA0D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EE6AFA01F86865600DA0D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EE6AFA31F86865600DA0D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EE6AFA51F86865600DA0D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE6AFAA1F86865600DA0D70 /* SpeechBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE6AFAE1F86865600DA0D70 /* SpeechBubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleTests.swift; sourceTree = "<group>"; };
+		1EE6AFB01F86865600DA0D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE6AFB51F86865700DA0D70 /* SpeechBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE6AFB91F86865700DA0D70 /* SpeechBubbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleUITests.swift; sourceTree = "<group>"; };
+		1EE6AFBB1F86865700DA0D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE6AF931F86865600DA0D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFA71F86865600DA0D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFB21F86865700DA0D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE6AF8D1F86865600DA0D70 = {
+			isa = PBXGroup;
+			children = (
+				1EE6AF981F86865600DA0D70 /* SpeechBubble */,
+				1EE6AFAD1F86865600DA0D70 /* SpeechBubbleTests */,
+				1EE6AFB81F86865700DA0D70 /* SpeechBubbleUITests */,
+				1EE6AF971F86865600DA0D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE6AF971F86865600DA0D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6AF961F86865600DA0D70 /* SpeechBubble.app */,
+				1EE6AFAA1F86865600DA0D70 /* SpeechBubbleTests.xctest */,
+				1EE6AFB51F86865700DA0D70 /* SpeechBubbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE6AF981F86865600DA0D70 /* SpeechBubble */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6AF991F86865600DA0D70 /* AppDelegate.swift */,
+				1EE6AF9B1F86865600DA0D70 /* ViewController.swift */,
+				1EE6AF9D1F86865600DA0D70 /* Main.storyboard */,
+				1EE6AFA01F86865600DA0D70 /* Assets.xcassets */,
+				1EE6AFA21F86865600DA0D70 /* LaunchScreen.storyboard */,
+				1EE6AFA51F86865600DA0D70 /* Info.plist */,
+			);
+			path = SpeechBubble;
+			sourceTree = "<group>";
+		};
+		1EE6AFAD1F86865600DA0D70 /* SpeechBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6AFAE1F86865600DA0D70 /* SpeechBubbleTests.swift */,
+				1EE6AFB01F86865600DA0D70 /* Info.plist */,
+			);
+			path = SpeechBubbleTests;
+			sourceTree = "<group>";
+		};
+		1EE6AFB81F86865700DA0D70 /* SpeechBubbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6AFB91F86865700DA0D70 /* SpeechBubbleUITests.swift */,
+				1EE6AFBB1F86865700DA0D70 /* Info.plist */,
+			);
+			path = SpeechBubbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE6AF951F86865600DA0D70 /* SpeechBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE6AFBE1F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubble" */;
+			buildPhases = (
+				1EE6AF921F86865600DA0D70 /* Sources */,
+				1EE6AF931F86865600DA0D70 /* Frameworks */,
+				1EE6AF941F86865600DA0D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechBubble;
+			productName = SpeechBubble;
+			productReference = 1EE6AF961F86865600DA0D70 /* SpeechBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EE6AFA91F86865600DA0D70 /* SpeechBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE6AFC11F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubbleTests" */;
+			buildPhases = (
+				1EE6AFA61F86865600DA0D70 /* Sources */,
+				1EE6AFA71F86865600DA0D70 /* Frameworks */,
+				1EE6AFA81F86865600DA0D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE6AFAC1F86865600DA0D70 /* PBXTargetDependency */,
+			);
+			name = SpeechBubbleTests;
+			productName = SpeechBubbleTests;
+			productReference = 1EE6AFAA1F86865600DA0D70 /* SpeechBubbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EE6AFB41F86865700DA0D70 /* SpeechBubbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE6AFC41F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubbleUITests" */;
+			buildPhases = (
+				1EE6AFB11F86865700DA0D70 /* Sources */,
+				1EE6AFB21F86865700DA0D70 /* Frameworks */,
+				1EE6AFB31F86865700DA0D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE6AFB71F86865700DA0D70 /* PBXTargetDependency */,
+			);
+			name = SpeechBubbleUITests;
+			productName = SpeechBubbleUITests;
+			productReference = 1EE6AFB51F86865700DA0D70 /* SpeechBubbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE6AF8E1F86865600DA0D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chris Adamson";
+				TargetAttributes = {
+					1EE6AF951F86865600DA0D70 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1EE6AFA91F86865600DA0D70 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EE6AF951F86865600DA0D70;
+					};
+					1EE6AFB41F86865700DA0D70 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EE6AF951F86865600DA0D70;
+					};
+				};
+			};
+			buildConfigurationList = 1EE6AF911F86865600DA0D70 /* Build configuration list for PBXProject "SpeechBubble" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE6AF8D1F86865600DA0D70;
+			productRefGroup = 1EE6AF971F86865600DA0D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE6AF951F86865600DA0D70 /* SpeechBubble */,
+				1EE6AFA91F86865600DA0D70 /* SpeechBubbleTests */,
+				1EE6AFB41F86865700DA0D70 /* SpeechBubbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE6AF941F86865600DA0D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE6AFA41F86865600DA0D70 /* LaunchScreen.storyboard in Resources */,
+				1EE6AFA11F86865600DA0D70 /* Assets.xcassets in Resources */,
+				1EE6AF9F1F86865600DA0D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFA81F86865600DA0D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFB31F86865700DA0D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE6AF921F86865600DA0D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE6AF9C1F86865600DA0D70 /* ViewController.swift in Sources */,
+				1EE6AF9A1F86865600DA0D70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFA61F86865600DA0D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE6AFAF1F86865600DA0D70 /* SpeechBubbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE6AFB11F86865700DA0D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE6AFBA1F86865700DA0D70 /* SpeechBubbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EE6AFAC1F86865600DA0D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE6AF951F86865600DA0D70 /* SpeechBubble */;
+			targetProxy = 1EE6AFAB1F86865600DA0D70 /* PBXContainerItemProxy */;
+		};
+		1EE6AFB71F86865700DA0D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE6AF951F86865600DA0D70 /* SpeechBubble */;
+			targetProxy = 1EE6AFB61F86865700DA0D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EE6AF9D1F86865600DA0D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE6AF9E1F86865600DA0D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EE6AFA21F86865600DA0D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE6AFA31F86865600DA0D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE6AFBC1F86865700DA0D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE6AFBD1F86865700DA0D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE6AFBF1F86865700DA0D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE6AFC01F86865700DA0D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EE6AFC21F86865700DA0D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechBubble.app/SpeechBubble";
+			};
+			name = Debug;
+		};
+		1EE6AFC31F86865700DA0D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechBubble.app/SpeechBubble";
+			};
+			name = Release;
+		};
+		1EE6AFC51F86865700DA0D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechBubble;
+			};
+			name = Debug;
+		};
+		1EE6AFC61F86865700DA0D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = SpeechBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deftapplications.SpeechBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechBubble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE6AF911F86865600DA0D70 /* Build configuration list for PBXProject "SpeechBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE6AFBC1F86865700DA0D70 /* Debug */,
+				1EE6AFBD1F86865700DA0D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE6AFBE1F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE6AFBF1F86865700DA0D70 /* Debug */,
+				1EE6AFC01F86865700DA0D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE6AFC11F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE6AFC21F86865700DA0D70 /* Debug */,
+				1EE6AFC31F86865700DA0D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE6AFC41F86865700DA0D70 /* Build configuration list for PBXNativeTarget "SpeechBubbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE6AFC51F86865700DA0D70 /* Debug */,
+				1EE6AFC61F86865700DA0D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EE6AF8E1F86865600DA0D70 /* Project object */;
+}
