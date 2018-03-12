@@ -14,6 +14,7 @@
 		1EE6AFA41F86865600DA0D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6AFA21F86865600DA0D70 /* LaunchScreen.storyboard */; };
 		1EE6AFAF1F86865600DA0D70 /* SpeechBubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AFAE1F86865600DA0D70 /* SpeechBubbleTests.swift */; };
 		1EE6AFBA1F86865700DA0D70 /* SpeechBubbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AFB91F86865700DA0D70 /* SpeechBubbleUITests.swift */; };
+		1EE6AFC81F8686A100DA0D70 /* SpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6AFC71F8686A100DA0D70 /* SpeechBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1EE6AFB51F86865700DA0D70 /* SpeechBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE6AFB91F86865700DA0D70 /* SpeechBubbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleUITests.swift; sourceTree = "<group>"; };
 		1EE6AFBB1F86865700DA0D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE6AFC71F8686A100DA0D70 /* SpeechBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1EE6AF991F86865600DA0D70 /* AppDelegate.swift */,
 				1EE6AF9B1F86865600DA0D70 /* ViewController.swift */,
+				1EE6AFC71F8686A100DA0D70 /* SpeechBubble.swift */,
 				1EE6AF9D1F86865600DA0D70 /* Main.storyboard */,
 				1EE6AFA01F86865600DA0D70 /* Assets.xcassets */,
 				1EE6AFA21F86865600DA0D70 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE6AFC81F8686A100DA0D70 /* SpeechBubble.swift in Sources */,
 				1EE6AF9C1F86865600DA0D70 /* ViewController.swift in Sources */,
 				1EE6AF9A1F86865600DA0D70 /* AppDelegate.swift in Sources */,
 			);

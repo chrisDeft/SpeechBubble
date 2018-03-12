@@ -24,6 +24,10 @@ class SpeechBubbleTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let testBubble = SpeechBubble(point: CGPoint(x: 50, y: 50), text: "World, you ain't seen nothing yet!")
+        
+        XCTAssertEqual(testBubble.text, "World, you ain't seen nothing yet!")
+        
     }
     
     func testPerformanceExample() {
