@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         let moreText = SpeechBubble(point: CGPoint(x: 50, y: 310), text: "Truth can only be found in one place: the code. - Robert C Martin", type: .bottomRight, color: .blue)
         
-        let finalPhrase = SpeechBubble(point: CGPoint(x: 50, y: 470), text: "Walking on water and developing software from a specification are easy if both are frozen. - Edward V Berard", type: .bottomLeft, color: .red)
+        let finalPhrase = SpeechBubble(point: CGPoint(x: 50, y: 430), text: "Walking on water and developing software from a specification are easy if both are frozen. - Edward V Berard", type: .bottomLeft, color: .red)
         
         self.view.addSubview(testPhrase)
         self.view.addSubview(anotherPhrase)
